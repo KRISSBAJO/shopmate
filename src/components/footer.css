@@ -1,0 +1,53 @@
+/* Footer Styles */
+.custom-footer {
+    padding: 1rem;
+    background-color: rgb(238, 233, 233);
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    color: #777;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .footer-links li {
+    margin: 0.5rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .copy-link {
+    text-decoration: none;
+    color: #0092ff;
+  }
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}  

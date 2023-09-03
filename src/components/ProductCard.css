@@ -9,15 +9,21 @@
     justify-content: space-between;
   }
   
-  .productCard img{
+  .productCard img {
     max-width: 100%;
-    height: 250px;
-    margin: 10px 0px;
+    height: 270px;
+    margin: 10px 0px 5px; /* Added margin to the bottom */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
   }
   
-  .productCard .name{
+  
+  .productCard .name {
     margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center; /* Add this line */
   }
+  
   
   .productCard p{
     font-size: 18px;
@@ -30,18 +36,39 @@
     align-items: center;
     margin: 10px 0px;
   }
-  
-  .productCard button{
-    border: 0px;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #1C59AE;
-    padding: 7px 10px;
-    cursor: pointer;
-    max-width: 150px;
+  .productCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
   }
   
-  .productCard button:hover{
-    background-color: #103f80;
+  
+  .addButton{
+    background-color: #1C59AE;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+  }
+  .removeButton{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+  }
+  .addButton, .removeButton {
+    /* ... existing styles ... */
+    transition: background-color 0.3s, transform 0.3s; /* Added transition effects */
+
+
+  }
+
+  .addButton:hover {
+    background-color: #14a670; /* Darker color on hover */
+    transform: scale(1.05); /* Slight scale up on hover */
+  }
+  .removeButton:hover {
+    background-color: #e74c3c; /* Darker color on hover */
+    transform: scale(1.05); /* Slight scale up on hover */
   }

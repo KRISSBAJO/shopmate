@@ -3,11 +3,13 @@ header {
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1590px;
     margin: auto;
     border-bottom: 1px solid #EEEEEE;
     font-size: 18px;
     padding: 0px 10px;
+    background-color: rgb(252, 248, 248);
+   
   }
   
   .logo{
@@ -17,6 +19,7 @@ header {
   .logo img{
     max-width: 40px;
     margin-right: 5px;
+    border-radius: 50%;
   }
   
   .navigation .link{
