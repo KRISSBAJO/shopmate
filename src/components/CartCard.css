@@ -55,17 +55,13 @@
     margin-bottom: 10px;
   }
   
-  .checkoutButton {
-    background-color: #ac0d14;
-    color: #ffffff;
-    border: none;
+  .checkOutButton {
+    border: 0px;
+    background-color: #0ccf77;
+    color: #FFFFFF;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 12px;
     cursor: pointer;
-  }
-  .checkoutButton:hover {
-    background-color: #8e090f;
   }
   
   @media screen and (max-width: 680px) {

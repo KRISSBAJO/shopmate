@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "./CartCard.css";
 
 export const CheckoutCard = ({ cartItems }) => {
-  const [totalPrice, setTotalPrice] = useState(
-    cartItems.reduce((total, item) => total + item.price, 0)
-  );
+    const [totalPrice] = useState(
+        cartItems.reduce((total, item) => total + item.price, 0)
+      );
+      
 
   return (
     <div className="checkoutCard">
@@ -12,7 +13,7 @@ export const CheckoutCard = ({ cartItems }) => {
         <p>Total Tax: $12,000</p>
         <p>Grand Total: ${totalPrice + 1}M</p>
       </div>
-      <button className="checkoutButton">Checkout</button>
+      <button className="">Checkout</button>
     </div>
   );
 };
